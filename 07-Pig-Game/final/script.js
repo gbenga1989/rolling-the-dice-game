@@ -95,4 +95,8 @@ btnHold.addEventListener('click', function () {
   }
 });
 
-btnNew.addEventListener('click', init);
+btnNew.addEventListener('click', function(){
+  score0El.textContent = 0;
+  score1El.textContent = 0;
+  current0El.textcontent = 0; 
+})
